@@ -6,7 +6,7 @@ namespace Tyuiu.GalimovaAS.Sprint5.Task2.V27.Lib
     {
         public string SaveToFileTextData(int[,] matrix)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask2.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask2.csv";
 
             FileInfo fl = new FileInfo(path);
 
