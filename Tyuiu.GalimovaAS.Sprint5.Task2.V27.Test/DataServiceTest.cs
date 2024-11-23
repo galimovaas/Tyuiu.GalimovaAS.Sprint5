@@ -8,8 +8,8 @@ namespace Tyuiu.GalimovaAS.Sprint5.Task2.V27.Test
         [TestMethod]
         public void TestMethod1()
         {
-           
-            string path = @"C:\Users\alina\source\repos\Tyuiu.GalimovaAS.Sprint5\Tyuiu.GalimovaAS.Sprint5.Task2.V27\bin\Debug\net8.0\OutPutFileTask2.csv";
+
+            string path = @"C:\Users\alina\AppData\Local\Temp\OutPutFileTask2.cvs";
 
 
             FileInfo fl = new FileInfo(path);
