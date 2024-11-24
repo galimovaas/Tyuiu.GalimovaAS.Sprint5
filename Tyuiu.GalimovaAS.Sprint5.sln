@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalimovaAS.Sprint5.Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalimovaAS.Sprint5.Task3.V7.Lib", "Tyuiu.GalimovaAS.Sprint5.Task3.V7.Lib\Tyuiu.GalimovaAS.Sprint5.Task3.V7.Lib.csproj", "{74A9A08E-02B6-41B1-88C0-517966CE67E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalimivaAS.Sprint5.Task3.V7.Test", "Tyuiu.GalimivaAS.Sprint5.Task3.V7.Test\Tyuiu.GalimivaAS.Sprint5.Task3.V7.Test.csproj", "{937BB15B-9900-4267-95D8-E4B8DA4849CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalimovaAS.Sprint5.Task3.V7.Test", "Tyuiu.GalimovaAS.Sprint5.Task3.V7.Test\Tyuiu.GalimovaAS.Sprint5.Task3.V7.Test.csproj", "{FDA49E09-E905-40BD-AF17-98CF78474438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,10 +85,10 @@ Global
 		{74A9A08E-02B6-41B1-88C0-517966CE67E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74A9A08E-02B6-41B1-88C0-517966CE67E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74A9A08E-02B6-41B1-88C0-517966CE67E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{937BB15B-9900-4267-95D8-E4B8DA4849CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{937BB15B-9900-4267-95D8-E4B8DA4849CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{937BB15B-9900-4267-95D8-E4B8DA4849CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{937BB15B-9900-4267-95D8-E4B8DA4849CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA49E09-E905-40BD-AF17-98CF78474438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA49E09-E905-40BD-AF17-98CF78474438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA49E09-E905-40BD-AF17-98CF78474438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA49E09-E905-40BD-AF17-98CF78474438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,7 +105,7 @@ Global
 		{E7B046C8-8BEA-4E9A-B0D3-9E780623B4BB} = {202189BA-894E-4EC1-951A-1C22B5212765}
 		{12A05287-469D-4F79-A910-894AC340EF11} = {DE222D0B-A5EE-468F-8005-8C701CF6023F}
 		{74A9A08E-02B6-41B1-88C0-517966CE67E2} = {DE222D0B-A5EE-468F-8005-8C701CF6023F}
-		{937BB15B-9900-4267-95D8-E4B8DA4849CD} = {DE222D0B-A5EE-468F-8005-8C701CF6023F}
+		{FDA49E09-E905-40BD-AF17-98CF78474438} = {DE222D0B-A5EE-468F-8005-8C701CF6023F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3F39FAB-45C9-47A8-A496-CEE6EF5C1696}
