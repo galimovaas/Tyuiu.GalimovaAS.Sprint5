@@ -1,16 +1,65 @@
 ﻿using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint5;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Tyuiu.GalimovaAS.Sprint5.Task0.V24.Lib
 {
-    public class DataService : ISprint5Task0V24
+    public class DataService : ISprint5Task5V30
     {
-        public string SaveToFileTextData(int x)
+        public string LoadFromDataFile(string path)
         {
-            string path = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask0.txt" });
-            double res = (Math.Pow(x, 3) - 8) / (2 * Math.Pow(x, 2));
-            res = Math.Round(res, 3);
-            File.WriteAllText(path, Convert.ToString(res));
-            return path;
+           
+            double maxPrimeNumber = double.MinValue;
+
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string? line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string lineReplace = line.Replace('.', ',');
+                    string[] lineArray = lineReplace.Split(' ');
+                }
+                if (Math.Abs(number % 1) < double.Epsilon && number > 0)
+                {
+                    // Проверяем, является ли число простым
+                    if (IsPrime((int)number))
+                    {
+                        // Обновляем максимальное простое число
+                        if (number > maxPrimeNumber)
+                        {
+                            maxPrimeNumber = number;
+                        }
+                    }
+                }
+            }
         }
+            return double ISprint5Task5V30.LoadFromDataFile(string path)
+        {
+            throw new NotImplementedException();
+        }
+
+        maxPrimeNumber;
+    }
+
+    private static bool IsPrime(int number)
+    {
+        if (number <= 1)
+        {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.Sqrt(number); i++)
+        {
+            if (number % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
+
+
+     
+    
+
