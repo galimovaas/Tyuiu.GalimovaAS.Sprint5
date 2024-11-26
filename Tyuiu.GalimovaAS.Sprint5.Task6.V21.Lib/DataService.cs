@@ -18,6 +18,10 @@ namespace Tyuiu.GalimovaAS.Sprint5.Task6.V21.Lib
                         {
                             count++;
                         }
+                        if (line[i] == 'Т' && line[i + 1] == 'т')
+                        {
+                            count++;
+                        }
                     }
                 }
             }
