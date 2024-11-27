@@ -6,32 +6,30 @@ namespace Tyuiu.GalimovaAS.Sprint5.Task7.V15.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = Path.Combine(new string[] { Path.GetTempPath(), "OutPutDataFileTask7V15.txt" });
-            FileInfo fileinfo = new FileInfo(pathSaveFile);
-
-            if (fileinfo.Exists)
+            string filePath = Path.Combine(new string[] { Path.GetTempPath(), "OutPutDataFileTask7V15.txt" });
+            FileInfo fileInfo = new FileInfo(filePath);
+            bool fileExists = fileInfo.Exists;
+            if (fileExists)
             {
-                File.Delete(pathSaveFile);
+                File.Delete(filePath);
             }
-
-
-
-            string text = File.ReadAllText(path);
-            List<string> list = new List<string>();
-            foreach (string word in text.Split(' '))
+            string n = File.ReadAllText(path);
+            string[] array = n.Split(' ');
+            string[] newarray = new string[array.Length];
+            for (int i = 0; i < array.Length; i++)
             {
-                if (word.Length != 2)
+                if (array[i].Length != 2)
                 {
-                    list.Add(word);
+                    newarray[i] = array[i] + " ";
                 }
                 else
                 {
-                    list.Add("");
+                    newarray[i] = "";
                 }
             }
-
-            File.AppendAllText(pathSaveFile, string.Join(" ", list));
-            return pathSaveFile;
+            string result = string.Join("", newarray);
+            File.AppendAllText(filePath, result);
+            return filePath;
         }
     }
 }
